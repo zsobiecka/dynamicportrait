@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!--CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--Title-->
+    <title>Playing with CSS Variables and JS</title>
+  </head>
+  <body>
+    <h1>Update CSS variables with <span class="hl">JS</span></h1>
+    <div class="controls">
+      <label for="spacing">Spacing:</label>
+      <input
+        type="range"
+        name="spacing"
+        min="10"
+        max="200"
+        value="10"
+        data-sizing="px"
+      />
+
+      <label for="blur">Blur:</label>
+      <input
+        type="range"
+        name="blur"
+        min="0"
+        max="25"
+        value="10"
+        data-sizing="px"
+      />
+
+      <label for="color">Base color:</label>
+      <input type="color" name="base" value="#FF959A" />
+    </div>
+
+    <img class="beachimg" src="img/beach.jpeg" />
+
+    <!-- Optional JavaScript -->
+    <script src="main.js"></script>
+  </body>
+</html>
